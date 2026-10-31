@@ -62,5 +62,5 @@ The sample data inserts patients with IDs 1 and doctors with IDs 2. It inserts a
 See `screenshots/README.md` for the required evidence and suggested image filenames.
 ## 8. Academic integrity and AI-use disclosure
 An AI assistant was used to help structure the repository, draft example SQL/PLSQL code, and explain the implementation. The group must review, test, adapt, and understand every file, and must follow the instructor's academic-integrity requirements. Both members remain responsible for the submitted work and should be able to explain it during the presentation.
-- Make the GitHub repository public.
+--------------------------------------tertolie edit
 - Submit the repository link through the Google Form specified in the assignment, before the deadline for your class group.
