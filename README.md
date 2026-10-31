@@ -56,7 +56,7 @@ SET SERVEROUTPUT ON;
 The scripts use Oracle identity columns and `FETCH FIRST`-independent SQL. Use Oracle Database 12c or later.
 
 ## 6. Expected test data
-The sample data inserts patients with IDs 1 and doctors with IDs 2. It inserts appointments with IDs 102. The success test creates an additional patient and appointment, so rerun the schema and sample-data scripts first if you want a clean repeatable test.
+The sample data inserts patients with IDs 1,3 and doctors with IDs 10,12. It inserts appointments with IDs 100, 102. The success test creates an additional patient and appointment, so rerun the schema and sample-data scripts first if you want a clean repeatable test.
 
 ## 7. Screenshots
 See `screenshots/README.md` for the required evidence and suggested image filenames.
