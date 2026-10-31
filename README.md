@@ -2,8 +2,8 @@
 # Hospital Management System Using Oracle PL/SQL
 
 ## Group members
-- Student 1: `SENGA APHRODIS` ID: `20251SEN137`
-- Student 2: `UHORANAYEZU Tertullien` ID: `29776`
+- Student 1: SENGA APHRODIS ID: 20251SEN137
+- Student 2: UHORANAYEZU Tertullien` ID: 29776
 
 
 
@@ -18,7 +18,7 @@ The project is an academic demonstration. It is not a production clinical-record
 ## 2. Database design
 The database contains three related tables:
 
-| `PATIENTS` | Stores patient identity and contact information | One patient can have many appointments |
+| PATIENTS | Stores patient identity and contact information | One patient can have many appointments |
 | `DOCTORS` | Stores doctor details and specialization | One doctor can have many appointments |
 | `APPOINTMENTS` | Stores each booking | Each appointment references one patient and one doctor |
 
