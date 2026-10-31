@@ -1,15 +1,6 @@
-
--- ==========================================
--- HOSPITAL MANAGEMENT SYSTEM
--- FILE: 02_insert_sample_data.sql
--- ==========================================
-
+//SAMPLE DADA INSERTION
 SET SERVEROUTPUT ON;
-
--- ==========================================
 -- 1. INSERT SAMPLE PATIENTS
--- ==========================================
-
 INSERT INTO patients
 (first_name, last_name, date_of_birth, gender, phone, email)
 SELECT 'Jean', 'Niyonzima', DATE '1998-04-12',
@@ -30,9 +21,7 @@ WHERE NOT EXISTS (
     WHERE email = 'aline.sample@example.com'
 );
 
--- ==========================================
 -- 2. INSERT SAMPLE DOCTORS
--- ==========================================
 
 INSERT INTO doctors
 (first_name, last_name, specialty, phone, email)
@@ -64,11 +53,7 @@ WHERE NOT EXISTS (
     WHERE email = 'david.dermatology@example.com'
 );
 
--- ==========================================
 -- 3. INSERT SAMPLE APPOINTMENTS
--- ==========================================
--- NOTE: Replace APPOINTMENT_DATETIME with
--- the actual date column name in your table.
 
 INSERT INTO appointments
 (patient_id, doctor_id, APPOINTMENT_DATETIME, status)
@@ -133,8 +118,6 @@ WHERE p.email = 'aline.sample@example.com'
 
 
 COMMIT;
-
-
 
 BEGIN
     DBMS_OUTPUT.PUT_LINE(
