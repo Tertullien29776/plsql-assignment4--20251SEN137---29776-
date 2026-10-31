@@ -42,8 +42,8 @@ Run the scripts in Oracle SQL Developer or SQL*Plus, connected to a schema where
 
 1. 00_schema/01_create_tables.sql
 2. 00_schema/02_insert_sample_data.sql
-3. Compile every .sql` file in 01_procedures/.
-4. Compile every .sql file in `02_functions/.
+3. Compile every .sql file in 01_procedures/.
+4. Compile every .sql file in 02_functions/.
 5. Run 03_tests/test_success_cases.sql.
 6. Run 03_tests/test_error_cases.sql.
 7. Capture genuine execution output and save it in screenshots/.
