@@ -9,4 +9,4 @@
 - Other procedures demonstrate implicit cursor attributes such as `SQL%ROWCOUNT` and `SQL%NOTFOUND`.
 - Functions return the number of appointments for a patient and a doctor ID for a specialty.
 - Test success and error cases separately.
-- Capture your own screenshots after running the scripts in Oracle SQL Developer. Do not use fabricated output screenshots.
+- TESTS output screenshots.
