@@ -3,7 +3,7 @@
 
 ## Group members
 - Student 1: SENGA APHRODIS ID: 20251SEN137
-- Student 2: UHORANAYEZU Tertullien` ID: 29776
+- Student 2: UHORANAYEZU Tertullien ID: 29776
 
 
 
